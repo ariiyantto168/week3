@@ -1,5 +1,4 @@
 // perkalian unik
-
 function perkalianUnik(arr) {
     // you can only write your code here!
   }

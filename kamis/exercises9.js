@@ -11,8 +11,8 @@ function cariMean(arr) {
       jumlah = jumlah + arr[i];
     }
   
-    var ratarata = jumlah / arr.length
-    var pembulatan = ratarata.toFixed()  
+    let ratarata = jumlah / arr.length
+    let pembulatan = ratarata.toFixed()  
 
     return pembulatan
 

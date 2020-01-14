@@ -9,7 +9,7 @@ function dataHandling(susunKata) {
 
         }
         console.log('Nomor ID :  '+susunKata[i][0]);
-        console.log('Nama Lengkap :  '+susunKata[i][1]);
+        console.log('Nama  Lengkap :  '+susunKata[i][1]);
         console.log('TTL :  '+susunKata[i][2] + ' ' + susunKata[i][3]);
         console.log('Hobi : '+susunKata[i][4]);
         console.log('');

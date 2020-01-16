@@ -4,13 +4,18 @@
 
 function pasanganTerbesar(num) {
     // you can only write your code here!
-  let a = 0;
-  let b = '';
+  let a = [];
+  let b = 0;
 
-  for (let index = 0; index < array.length; index++) {
-            console.log();
+  for (let i = 0; i <= num.toString().length-1; i++) {
+   a.push(num.toString()[i] + num.toString()[i+1]);
       
   }
+  b = a.reduce(function(x,y){
+    return (x > y) ? x : y;
+  });
+
+  return Number(b);
 
 }
   
@@ -20,3 +25,6 @@ function pasanganTerbesar(num) {
   console.log(pasanganTerbesar(910233)); // 91
   console.log(pasanganTerbesar(71856421)); // 85
   console.log(pasanganTerbesar(79918293)); // 99
+
+
+ 

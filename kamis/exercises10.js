@@ -1,8 +1,23 @@
 // perkalian unik
 function perkalianUnik(arr) {
-    // you can only write your code here!
+  // you can only write your code here!
+  let tampung = [];
+for (let index = 0; index < arr.length; index++) {
+  let test = 1;
+  for (let i = 0; i < arr.length; i++) {
+   if (index !== i) {
+      test *= arr[i];
+   }
   }
+  tampung.push(test);
+ }
+ return tampung;
+
+
   
+}
+// perkalianUnik()
+
   // TEST CASES
   console.log(perkalianUnik([2, 4, 6])); // [24, 12, 8]
   console.log(perkalianUnik([1, 2, 3, 4, 5])); // [120, 60, 40, 30, 24]

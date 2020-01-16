@@ -5,9 +5,7 @@ function dataHandling(susunKata) {
     let susun = '';
     for (let i=0; i<=susunKata.length-1; i++) {
         susun 
-        for(let j=0; j<=i; j++){
 
-        }
         console.log('Nomor ID :  '+susunKata[i][0]);
         console.log('Nama  Lengkap :  '+susunKata[i][1]);
         console.log('TTL :  '+susunKata[i][2] + ' ' + susunKata[i][3]);
